@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <!-- 引入CSS样式文件 -->
+    <link rel="stylesheet" href="bb.css">
+</head>
+<body>
+    <!-- 博客头部 -->
+    <header class="blog-header">
+        <div class="header-container">
+            <h1 class="blog-title">微风的博客</h1>
+            <nav class="blog-nav">
+                <a href="#">首页</a>
+                <a href="#">文章</a>
+                <a href="#">关于我</a>
+                <a href="#">留言板</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 博客主体内容 -->
+    <main class="blog-main">
+        <div class="main-container">
+            <!-- 个人介绍 -->
+            <section class="profile">
+                <img src="https://via.placeholder.com/150" alt="头像" class="avatar">
+                <h2>关于博主</h2>
+                <p>热爱生活，喜欢分享技术与日常的普通程序员</p>
+            </section>
+
+            <!-- 最新文章 -->
+            <section class="articles">
+                <h2>最新文章</h2>
+                <div class="article-list">
+                    <div class="article-item">
+                        <h3><a href="#">HTML+CSS入门到精通</a></h3>
+                        <p class="date">发布于 2025-12-11</p>
+                        <p class="desc">详细讲解HTML和CSS的核心知识点，适合零基础入门...</p>
+                    </div>
+                    <div class="article-item">
+                        <h3><a href="#">JavaScript花瓣特效实现</a></h3>
+                        <p class="date">发布于 2025-12-10</p>
+                        <p class="desc">手把手教你实现网页花瓣飘落的动态效果...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 博客底部 -->
+    <footer class="blog-footer">
+        <p>© 2025 微风的博客 - 保留所有权利</p>
+    </footer>
+
+    <!-- 花瓣容器 -->
+    <div id="petal-container"></div>
+
+    <!-- 引入JavaScript文件 -->
+    <script src="bb.js"></script>
+</body>
+</html>
